@@ -6,7 +6,7 @@
 	<groupId>com.smn</groupId>
 	<artifactId>restlog</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>restlog</name>
 	<description>Demo project for Spring Boot</description>
@@ -25,7 +25,7 @@
 		<luizalabs-java-commons-spring.version>0.0.1-SNAPSHOT</luizalabs-java-commons-spring.version>
         <hawtio.version>2.0.0</hawtio.version>
         <camel-version>2.19.2</camel-version>
-		<start-class>com.smn.restlog.RestlogApplicationWar</start-class>
+		<!--<start-class>com.smn.restlog.RestlogApplicationWar</start-class>-->
 	</properties>
 
 	<dependencies>
@@ -43,7 +43,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
+            <!--<scope>provided</scope>-->
         </dependency>
 
 
